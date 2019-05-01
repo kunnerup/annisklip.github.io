@@ -469,10 +469,8 @@ blockquote {
     }
     
     .opsat {
-        margin-bottom: 0;
+        margin-bottom: 0px;
     }
-   
-
     
   }  
 
@@ -685,9 +683,8 @@ footer {
 
 footer section {
     display: flex;
-    width: 70%;
 margin: auto;
-    justify-content: space-around; 
+    justify-content: center; 
 }
 
 footer a {
@@ -701,13 +698,18 @@ footer img {
 
 footer p {
     font-size: 15px;
-    margin-top: 30px;
+    margin-top: 20px;
     font-weight: bold;
 }
 
 footer h4 {
-    display: flex;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 400;
-    justify-content: space-around;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7%;
+    margin-right: 7%;
 }
