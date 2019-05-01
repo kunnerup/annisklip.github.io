@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+
+    <title>Layout with Styles</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Prisliste hos Annis Klip</title>
+</head>
+
+<body>
+
+
+    <header class="header">
+
+        <section class="annilogo">
+
+           <a href="index.html"><img src="images/logohvid.png" alt="Annis Klip logo"></a> 
+
+                              <div class="desktop">
+        <ul>
+                <li><a href="index.html">HJEM</a></li>
+                <li><a href="priser.html">PRISER</a></li>
+                <li><a href="om.html">OM ANNI</a></li>
+            </ul>
+                </div>
+            
+        </section>
+
+        <nav class="navigation">
+
+            <section class="logo"></section>
+
+            <section class="navigation__icon">
+                <span class="topBar"></span>
+                <span class="middleBar"></span>
+                <span class="bottomBar"></span>
+            </section>
+
+
+
+            <ul class="navigation__ul">
+                <li><a href="index.html">HJEM</a></li>
+                <li><a href="priser.html">PRISER</a></li>
+                <li><a href="om.html">OM ANNI</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <section class="front">
+    
+        	<picture><source media="(min-width: 1024px)" srcset="images/facade.jpg">
+		<source media="(min-width: 768px)" srcset="images/facade.jpg">
+		<img src="images/facademobil.jpg" alt="Annis Klip facade">
+        </picture>
+        
+    </section>
+    
+<section class="indhold3">
+         
+    <div class="flex">
+        <h2>Prisliste</h2>
+        <article>
+<div class="grid-container">
+<div class="grid-item">
+  <ul class="price">
+    <li class="skematop">Ydelse</li>
+    <li class="white">Herre klip </li>
+    <li>Dame klip</li>
+    <li>Dame klip/vask/føn</li>
+    <li>Permanent m/klip</li>
+    <li>Hår farvning bund</li>
+      <li>Hel farvning</li>
+      <li>Striber med hætte</li>
+      <li>Striber med papir</li>
+  </ul>
+</div>
+
+
+<div class="grid-item">
+  <ul class="price">
+    <li class="skematop">Pris</li>
+    <li class="white">225 kr</li>
+    <li>240 kr</li>
+    <li>275 kr</li>
+    <li>fra 650 kr</li>
+    <li>400 kr</li>
+      <li>fra 450 kr</li>
+      <li>fra 400 kr</li>
+      <li>fra 475 kr</li>
+        
+  </ul>
+    
+</div>
+</div>
+            
+ </article>
+        </div>
+    
+    <div class="flex">
+    <article class="studierabat">
+        
+       <p>STUDIERABAT:
+        <br><span class="fed">-10%</span></p>
+        
+    </article>
+    <article class="opsat">
+        <h2>Få håret sat op!</h2>
+        <p>Hos Annis Klip kan du også få sat håret op. Skal du til galla, bryllup, konfirmation eller anden fest, hjælper jeg gerne med op.<br> Jeg glæder mig til at se dig i salonen!</p>
+        
+        </article>
+    </div>
+    </section>
+    
+    
+    
+    
+   <footer>
+        <section>
+    <h3><a href="mailto:anni@annisklip.dk"><i class="material-icons">mail</i></a></h3>
+        <h3><a href="tel:+4560838223"><i class="material-icons">phone</i></a></h3>
+            <h3><a target="_blank" href="https://www.facebook.com/ANNISKLIP"><img src="images/fblogowhite.png" alt="Annis Klip Facebook logo"></a></h3>
+        </section>
+    
+     <p>©ANNIS KLIP 2019</p>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>
+        $(function() {
+            $(".navigation__icon").click(function() {
+                $(".navigation").toggleClass('navigation-open');
+            });
+        });
+        navigation
+
+    </script>
+</body>
+
+</html>

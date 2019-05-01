@@ -1,0 +1,687 @@
+/* _-_-_-_-__ generel info __-_-_-_-_ */ 
+html {
+  box-sizing: border-box;
+}
+body{    
+    font-family: 'Josefin Slab', serif;  
+    font-size: 20px;
+}
+
+.adress {
+   font-weight: 100;
+}
+
+.desktop ul {
+    display: none;
+}
+
+.tlf h2{
+    background-color: #748e93;
+    height: 80px;
+    width: 209px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* _-_-_-_-__ her indsættes baggrundsbillede __-_-_-_-_ */
+
+body {
+  padding: 0;
+  margin: 0;
+    background-color: #f3f3f3;
+}
+
+/*---------------------FORSIDE------------------*/
+.header {
+    height: 82px;
+    background-color: #748e93;  
+}
+
+.banner {
+    height: 40vh;
+    width: 100%;
+    background-image: url(../images/annismobile.gif);
+        background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+
+.indhold{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.indhold3{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.indhold article {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.centrer {
+ text-align: center;
+}
+
+.annilogo{
+    float: right;
+}
+
+.annilogo img {
+    width: 190px;
+position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 10;
+}
+
+section iframe{
+    width: 100%;
+}
+
+.material-icons {
+    padding-right: 5px;
+}
+
+.text p{
+    font-size: 20px; 
+    width: 90%;
+    margin: auto;
+    
+}
+
+.cirkellogo {
+    display: none;
+}
+
+
+/*--------------------------------Skema til priser og åbningstider-----------------------*/
+
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 0px;
+  grid-template-columns:  auto auto;
+  padding: 0px;
+    margin-bottom: 20px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 0px;
+  font-size: 20px;
+ 
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #748E93;
+  margin: 0;
+  padding: 0;
+ 
+}
+
+.price .skematop {
+  background-color: #748E93;
+  color: white;
+  font-size: 20px;
+    font-weight: bolder;
+}
+
+.price li {
+  border-bottom: 1px solid #748E93;
+  padding: 10px;
+  text-align: left;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+
+/*-----------------------OM-----------------------*/
+.indhold2 {
+ text-align: center;
+}
+
+.indhold2 p{
+   padding-bottom: 10px;
+}
+
+
+
+.citat-container {
+    display: flex;
+    flex-wrap: wrap;
+        margin-bottom: 20px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.author  {
+    font-size: 18px;
+    font-weight: bold;
+}
+blockquote {
+ margin:auto;
+    padding: 10px;
+  display: inline-block;
+  font-family: 'Bitter', serif;
+  text-align: left;
+    width: 60%;
+}
+  span.author {
+    
+    display: block;
+    text-align: right;
+    color: black;
+}
+   .citat-container i {
+      padding-left: 2px;
+      font-style: italic;
+      z-index: 5;
+    }
+
+.hvem h2 {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+  
+  /*CITAT*/
+.info{
+    background-color: #748e93;
+  width: 100%;
+    margin-top: -5px;
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.info p {
+    padding-bottom: 30px;
+    width: 100%;
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+
+
+}
+
+.ombilleder img {
+    width: 100%;
+}
+
+
+
+
+/*------------------Priser---------------*/
+.front img{
+    width: 100%;
+}
+
+.front {
+    margin-bottom: 20px;
+}
+
+.fed {
+    font-weight: bolder;
+    font-size: 35px;
+}
+
+.indhold article{
+    display: flex;
+    flex-direction: row;
+}
+
+.studierabat p {
+     border: #748e93 solid 2px;
+    padding: 15px;
+    width: 295px;
+    font-size: 25px;
+}
+
+
+.opsat {
+    width: 295px;
+    margin-top: 20px;
+    border: #748e93 solid 2px;
+    padding: 15px;
+    width: 295px;
+    font-size: 25px;
+    margin-bottom: 15px;
+}
+
+
+/*------------------MEDIAQ -------------------*/
+
+/*--------------------IPAD------------------*/
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+    .desktop {
+       display: none;
+    }
+    
+ .banner {
+    height: 50vh;
+    background-image: url(../images/annistablet.jpg);
+     background-position: center;
+}
+blockquote {
+    width: 30%;
+    }
+    
+    .indhold2 p{
+        width: 60%;
+        margin: auto;
+    } 
+
+}
+    
+
+
+/*--------------------Desktop--------------*/
+@media screen and (min-width: 1024px) {
+ .banner {
+    height: 94vh;
+    background-image: url(../images/annisklipdesktop.jpg)
+}  
+    
+    .ombilleder {
+        display: flex;
+        align-items: center;
+        width: 50%;
+    }
+    
+    .ombilleder img {
+        max-width: 700px;
+        float: right;
+        border-radius: 50%;
+    
+    }
+
+    .info {
+        float: right;
+        width: 100%;
+        text-align: left;
+    }
+    
+    .hvem {
+    display: flex;
+        flex-direction: column;
+        width: 30%;
+        font-size: 25px;
+        justify-content: center;
+        margin-left: 10%;
+        
+    }
+
+    .styleom {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        padding-bottom: 82px;
+    }
+    
+   
+    .navigation__icon{
+        z-index: -100;
+    }
+    
+    section.logo {
+        cursor: auto;
+    }
+    
+    desktop {
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+        height: 82px;
+    }
+    
+    .desktop ul {
+        display: flex;
+        z-index: 10;
+        list-style: none;
+        width: 500px;
+        justify-content: space-around;
+        height: 82px;
+        align-items: center;
+    }
+    
+    .desktop ul li {
+        display: flex;
+        font-size: 25px;
+        font-weight: bolder;
+        letter-spacing: 5px;
+    }
+    
+    .desktop a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .annilogo {
+        display: flex;
+    }
+    
+    .annilogo img {
+        position: absolute;
+        right: 0;
+        left: 8px;
+    }
+    
+    
+    blockquote {
+    width: 30%;
+    }
+    
+    .tlf {
+        position: absolute;
+        margin-top: -275px;
+        right: 70px;
+         border: solid white 4px;
+    }
+    
+    .tlf h2 {
+        width: 300px;
+        height: 150px;
+        font-size: 40px;
+        font-weight: bolder;   
+    }
+    
+    .text {
+        position: absolute;
+        top: 150px;
+        color: white;
+        left: 0px;
+        width: 50%;
+    }
+    
+    .text p {
+        font-size: 45px;
+        width: 70%;
+        text-align: center;
+        margin: 0;
+        margin: auto;
+        
+       
+        
+    }
+    
+    .indhold3 {
+        flex-direction: row;
+    }
+    
+    
+    .flex {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;  
+    }
+    
+    .cirkellogo {
+        display:block;
+        left: 10%;
+        width: 200px;
+        height: 200px;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: -60px;
+        
+    }
+    
+    .flexi {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .opsat {
+        margin-bottom: 0;
+    }
+   
+  }  
+
+
+
+
+
+/*----------------------------------------MENU-------------------------------------------------*/
+/* _-_-_-_-__hvad menuen skal gøre når man trykker på den__-_-_-_-_ */
+
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+/* _-_-_-_-__  navigation med transitions effekt - cubic-bezier__-_-_-_-_ */
+.navigation {
+  width: 100px;
+  height: 100%;
+  display: block;
+  padding-right: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: ;
+  border-radius: 0% 0% 0% 0%;   
+  perspective: 800;   
+  transition: all 800ms cubic-bezier(.9, 0, .33, 1);
+}
+
+/* _-_-_-_-__ Her kan man indsætte sit logo - vises under burgeren __-_-_-_-_ */
+.logo {
+  width: 70px;
+  height: 70px;
+  display: block;
+  position: absolute;
+  cursor: pointer;  
+  transform-style: preserve-3d;   
+  transform: rotateY(-360deg);   
+  transition: all 800ms cubic-bezier(.9, 0, .33, 1);
+}
+/* _-_-_-_-__ Burger stregerne (str, farve og bredde) __-_-_-_-_ */
+.navigation__icon {
+  width: 55px;
+  height: 44px;
+  display: block;
+  position: relative;
+  top: 2%;
+  left: 20%;
+  background: hsla(312, 51%, 41%, 0.0);
+  cursor: pointer;  
+  transition: all 800ms cubic-bezier(.9, 0, .33, 1);
+}
+
+.navigation__icon .topBar {
+  width: 55px;
+  height: 7px;
+  display: block;
+  background: white;
+  position: absolute;
+  top: 10px; 
+  transform: rotate(0);   
+  transition: all 800ms cubic-bezier(.9, 0, .33, 1);
+}
+
+.navigation__icon .middleBar {
+  width: 55px;
+  height: 7px;
+  display: block;
+  background: white;
+  position: absolute;
+  top: 23px;   
+  transform: rotate(0);
+   transition: all 800ms cubic-bezier(.9, 0, .33, 1);
+}
+
+.navigation__icon .bottomBar {
+  width: 55px;
+  height: 7px;
+  display: block;
+  background: white;
+  position: absolute;
+  top: 36px;   
+  transform: rotate(0);   
+  transition: all 800ms cubic-bezier(.9, 0, .33, 1);
+}
+/* _-_-_-_-__ Placering af underside overskrift. her midt på skærm __-_-_-_-_ */
+.navigation .navigation__ul {
+  float: right;
+  margin-top: 220px;
+  opacity: 0;
+  visibility: hidden;  
+  transform: rotateY(0deg); transform: translateX(-300px);   
+  transition: all 800ms cubic-bezier(.9, 0, .33, 1);
+}
+/* _-_-_-_-__ Tekst str og placering__-_-_-_-_ */
+
+.navigation .navigation__ul li {
+  list-style: none;
+  text-align: right;
+}
+
+.navigation .navigation__ul a {
+  display: block;
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 15px;
+}
+/* _-_-_-_-__ Hover effekt farve __-_-_-_-_ */
+
+.navigation .navigation__ul a:hover {
+  color: lightgray;
+}
+
+ 
+/* _-_-_-_-__ Navigations baren __-_-_-_-_ */
+
+
+.navigation-open {
+  width: 350px;
+  height: 100%;
+  display: block;
+  background: #748e93;
+  position: absolute;
+  left: 0;
+  border-radius: 0% 1% 1% 0%;
+}
+
+/* _-_-_-_-__ Burger rotation__-_-_-_-_ */
+
+
+.navigation-open .navigation__icon {
+  left: 2%;
+}
+
+.navigation-open .navigation__ul {
+  opacity: 1;
+  visibility: visible;
+}
+
+.navigation-open .navigation__social-ul {
+  opacity: 1;
+  visibility: visible;
+}
+
+.navigation-open .topBar {
+  top: 21px;   
+  transform: rotate(45deg);
+}
+
+.navigation-open .middleBar {
+  width: 0;
+  top: 22px;
+  opacity: 0;
+  visibility: hidden; 
+  transform: translateX(30px);
+}
+
+.navigation-open .bottomBar {
+  width: 55px;
+  top: 21px;   
+  transform: rotate(-45deg);
+}
+
+.navigation-open .navigation__ul {   
+  transform: rotateY(0) translateX(0);
+}
+
+.navigation-open .navigati  on__social-ul {   
+  transform: rotateY(0) translateX(0);
+}
+
+.navigation-open .navigation__social-ul li {
+  opacity: 1;
+  visibility: visible;   
+  transform: translateY(0px);
+}
+
+.navigation-open .navigation__social-ul li:nth-child(1) {   
+  transition-delay: .5s;
+}
+
+.navigation-open .navigation__social-ul li:nth-child(2) {   
+  transition-delay: .46s;
+}
+
+.navigation-open .navigation__social-ul li:nth-child(3) {   
+  transition-delay: .43s;
+}
+
+.navigation-open .navigation__social-ul li:nth-child(4) {   
+  transition-delay: .4s;
+}
+    
+
+footer {
+    height: 170px;
+    background-color: #748e93;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+footer section {
+    display: flex;
+    width: 70%;
+margin: auto;
+    justify-content: space-around; 
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer img {
+    height: 25px;
+}
+
+footer p {
+    font-size: 10px;
+    margin-top: 30px;
+}

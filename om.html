@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+
+    <title>Layout with Styles</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    <title>NAVIGATION</title>
+</head>
+
+<body>
+
+     <header class="header">
+
+        <section class="annilogo">
+
+           <a href="index.html"><img src="images/logohvid.png" alt="Annis Klip logo"></a> 
+
+                              <div class="desktop">
+        <ul>
+                <li><a href="index.html">HJEM</a></li>
+                <li><a href="priser.html">PRISER</a></li>
+                <li><a href="om.html">OM ANNI</a></li>
+            </ul>
+                </div>
+            
+        </section>
+
+        <nav class="navigation">
+
+            <section class="logo"></section>
+
+            <section class="navigation__icon">
+                <span class="topBar"></span>
+                <span class="middleBar"></span>
+                <span class="bottomBar"></span>
+            </section>
+
+
+
+            <ul class="navigation__ul">
+                <li><a href="index.html">HJEM</a></li>
+                <li><a href="priser.html">PRISER</a></li>
+                <li><a href="om.html">OM ANNI</a></li>
+            </ul>
+
+        </nav>
+         
+         <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>
+        $(function() {
+            $(".navigation__icon").click(function() {
+                $(".navigation").toggleClass('navigation-open');
+            });
+        });
+        navigation
+
+    </script>
+         
+    </header>
+    
+    <section class="indhold2">
+    
+    <div class="Anni">
+
+    </div>
+    <div class="hero-text">
+    </div>
+    <article class="info">
+        <div class="styleom">
+        <div class="ombilleder">
+        <picture><source media="(min-width: 1024px)" srcset="images/annirund.jpg">
+		<source media="(min-width: 768px)" srcset="images/anniportaettablet.jpg">
+		<img src="images/anniportaet.jpg" alt="Anni portrætfoto">
+        </picture></div>
+        
+        <div class="hvem">
+        <h2>Hvem er din frisør?</h2>
+        <p>
+            Som kunde hos Annis klip skal man have oplevelsen af at man bliver hørt og forstået. Min opgave som frisør er at lytte til hvad du gerne vil have og derefter gøre mit bedste for at opnå det bedste resultat. </p>
+        <p>
+            Med over 40 års erfaring og en faglig uddannelse er jeg den helt rigtige at gå til. Som frisør er det vigtigt at være tilstrækkelig udviklet til at handle klogt, det gør jeg ved at hele tiden forny min viden på trods af den mange års erfaring. </p>
+        <p>
+            I 2012 startede jeg Annis klip. Jeg har været ansat som frisør, i forskellige saloner. I 2012 følte jeg at det var på tide at starte min egen salon hvor jeg havde de fulde overblik og hvor jeg kunne gøre det på min måde. </p>
+        </div>
+            </div>
+    </article>
+       
+    
+ <h2 class="padding">Det siger kunderne </h2>
+        <div class="citat-container">
+        <blockquote class="citat">
+            <p><span>"</span>Jeg er blevet klippet af Anni på flere af de saloner<br />hun har være ansat på, hun ved hvordan jeg vil have det og kender mig rigtig godt <span>"</span></p>
+            <hr>
+            <span class="author"><i>Maibritt Nielsen</i></span>
+
+        </blockquote>
+        <blockquote class="citat">
+            <p><span>"</span>Det er sjælendt jeg har været tilfreds efter første klip, ved ny frisør<br />Men det var jeg efter jeg havde været forbi Anni første gang<span>"</span></p>
+
+            <hr>
+            <span class="author"><i>Søren Petersen</i></span>
+
+        </blockquote>
+        <blockquote class="citat">
+            <p><span>"</span>Jeg bliver klippet hos Anni de sidste 15 år fordi hun er forstående og <br />hun bruger hendes faglige baggrund<span>"</span></p>
+            <hr>
+            <span class="author"><i>Kunde gennem 15 år</i></span>
+
+        </blockquote>
+    </div>
+      </section>
+    <footer>
+        <section>
+            <h3><a href="mailto:anni@annisklip.dk"><i class="material-icons">mail</i></a></h3>
+            <h3><a href="tel:+4560838223"><i class="material-icons">phone</i></a></h3>
+            <h3><a target="_blank" href="https://www.facebook.com/ANNISKLIP"><img src="images/fblogowhite.png" alt="Annis Klip Facebook logo"></a></h3>
+        </section>
+
+        <p>©ANNIS KLIP 2019</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width = device-width, initial-scale = 1">
+
+    <title>Layout with Styles</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>NAVIGATION</title>
+</head>
+
+<body>
+
+
+    <header class="header">
+
+        <section class="annilogo">
+
+           <a href="index.html"><img src="images/logohvid.png" alt="Annis Klip logo"></a> 
+
+            
+                  <div class="desktop">
+        <ul>
+                <li><a href="index.html">HJEM</a></li>
+                <li><a href="priser.html">PRISER</a></li>
+                <li><a href="om.html">OM ANNI</a></li>
+            </ul>
+                </div>
+            
+        </section>
+        
+
+        <nav class="navigation">
+
+            <section class="logo"></section>
+
+            <section class="navigation__icon">
+                <span class="topBar"></span>
+                <span class="middleBar"></span>
+                <span class="bottomBar"></span>
+            </section>
+
+
+
+            <ul class="navigation__ul">
+                <li><a href="index.html">HJEM</a></li>
+                <li><a href="priser.html">PRISER</a></li>
+                <li><a href="om.html">OM ANNI</a></li>
+            </ul>
+            
+        </nav>
+        
+        
+    </header>
+    
+
+     
+    
+
+    <section class="banner"></section>
+
+    <section class="indhold">
+
+        <article class="text">
+            <p> Hos Annis Klip er det altid dig der er i centrum. Sammen finder vi løsningen, der passer bedst til dig.</p>
+        </article>
+
+        
+ <div>
+
+            <article class="tlf">
+            <h2>Booking tlf.:<br>60 83 82 23</h2>
+        </article></div>
+         <h2>Åbningstider</h2>
+        
+<div class="flexi">
+        <img class="cirkellogo" src="images/idhair.png" alt="ID hair forhandler">
+
+         
+        <article>
+           
+            <div  class="grid-container">
+                <div class="grid-item">
+                    
+                    <ul class="price">
+                        <li class="skematop">Dag</li>
+                        <li class="white">Mandag</li>
+                        <li>Tirsdag</li>
+                        <li>Onsdag</li>
+                        <li>Torsdag</li>
+                        <li>Fredag</li>
+                        <li>Lørdag</li>
+                        <li>Søndag</li>
+                    </ul>
+                </div>
+
+
+                <div class="grid-item">
+                    <ul class="price">
+                        <li class="skematop">Åbningstid</li>
+                        <li class="white">09:00-17:00</li>
+                        <li>09:00-17:00</li>
+                        <li>09:00-17:00</li>
+                        <li>09:00-17:00</li>
+                        <li>09:00-17:00</li>
+                        <li>Åben efter aftale</li>
+                        <li>Lukket</li>
+
+                    </ul>
+                </div>
+            </div>
+        </article>
+    
+        <img class="cirkellogo" src="images/faglaert.png" alt="Faglært frisør">
+    </div>    
+    
+    
+ <article class="centrer">
+            
+            <h3>ANNIS KLIP<br><span class="adress">Fredensgade 39<br>8000 Aarhus C</span></h3>
+        </article>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2222.2504593098224!2d10.206571716058178!3d56.15277406853955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x464c3f91b7af37fd%3A0x93595804cd010781!2sAnnisklip+v%2FAnni+Kristensen!5e0!3m2!1sda!2sdk!4v1556283273475!5m2!1sda!2sdk" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+    </section>
+
+ 
+   <footer>
+        <section>
+    <h3><a href="mailto:anni@annisklip.dk"><i class="material-icons">mail</i></a></h3>
+        <h3><a href="tel:+4560838223"><i class="material-icons">phone</i></a></h3>
+            <h3><a target="_blank" href="https://www.facebook.com/ANNISKLIP"><img src="images/fblogowhite.png" alt="Annis Klip Facebook logo"></a></h3>
+        </section>
+    
+     <p>©ANNIS KLIP 2019</p>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>
+        $(function() {
+            $(".navigation__icon").click(function() {
+                $(".navigation").toggleClass('navigation-open');
+            });
+        });
+        navigation
+
+    </script>
+</body>
+
+</html>
