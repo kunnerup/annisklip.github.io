@@ -21,9 +21,19 @@ body{
     width: 209px;
     margin: auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+.tlf a {
+    text-decoration: none;
+    color: white;
+}
+
+iframe {
+    width: 100%;
 }
 
 /* _-_-_-_-__ her indsættes baggrundsbillede __-_-_-_-_ */
@@ -291,6 +301,8 @@ blockquote {
         margin: auto;
     } 
 
+    
+    
 }
     
 
@@ -298,7 +310,7 @@ blockquote {
 /*--------------------Desktop--------------*/
 @media screen and (min-width: 1024px) {
  .banner {
-    height: 94vh;
+    height: 82vh;
     background-image: url(../images/annisklipdesktop.jpg)
 }  
     
@@ -328,7 +340,10 @@ blockquote {
         font-size: 25px;
         justify-content: center;
         margin-left: 10%;
-        
+    }
+    
+    .hvem p {
+        padding-left: 0;
     }
 
     .styleom {
@@ -336,6 +351,7 @@ blockquote {
         flex-direction: row-reverse;
         justify-content: space-around;
         padding-bottom: 82px;
+        padding-top: 20px;
     }
     
    
@@ -366,7 +382,7 @@ blockquote {
     
     .desktop ul li {
         display: flex;
-        font-size: 25px;
+        font-size: 18px;
         font-weight: bolder;
         letter-spacing: 5px;
     }
@@ -383,7 +399,7 @@ blockquote {
     .annilogo img {
         position: absolute;
         right: 0;
-        left: 8px;
+        left: 40px;
     }
     
     
@@ -456,6 +472,8 @@ blockquote {
         margin-bottom: 0;
     }
    
+
+    
   }  
 
 
@@ -682,6 +700,14 @@ footer img {
 }
 
 footer p {
-    font-size: 10px;
+    font-size: 15px;
     margin-top: 30px;
+    font-weight: bold;
+}
+
+footer h4 {
+    display: flex;
+    font-size: 24px;
+    font-weight: 400;
+    justify-content: space-around;
 }
